@@ -48,6 +48,19 @@ const questions = [
         },
         {
             type: 'input',
+            name: 'description',
+            message: 'Please provide a description for your project.',
+            validate: description => {
+                if (description) {
+                    return true;
+                } else {
+                    console.log("Please provide a description of your project.");
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
             name: 'email',
             message: 'Provide your contact email. (Required)',
             validate: emailAddress => {
@@ -58,7 +71,59 @@ const questions = [
                     return false;
                 }
             }
-        }
+        },
+        {
+            type: 'input',
+            name: 'Installation',
+            message: 'What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.',
+            validate: Installation => {
+                if (Installation) {
+                    return true;
+                } else {
+                    console.log("What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.");
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'Usage',
+            message: 'Provide instructions and examples for use. Include screenshots as needed.',
+            validate: Usage => {
+                if (Usage) {
+                    return true;
+                } else {
+                    console.log("Provide instructions and examples for use. Include screenshots as needed.");
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'Credits',
+            message: 'List your collaborators, if any, with links to their GitHub profiles.',
+            validate: Credits => {
+                if (Credits) {
+                    return true;
+                } else {
+                    console.log("List your collaborators, if any, with links to their GitHub profiles.");
+                    return false;
+                }
+            }
+        },
+        {
+            type: 'input',
+            name: 'License',
+            message: 'Please provide a License for your project.',
+            validate: License => {
+                if (License) {
+                    return true;
+                } else {
+                    console.log("Please provide a license for your project.");
+                    return false;
+                }
+            }
+        },
     ];
 
 

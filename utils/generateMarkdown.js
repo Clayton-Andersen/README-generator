@@ -10,9 +10,9 @@ function renderLicenseBadge(license) {
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (!license) {
-    return "";
-  } else ()
+  // if (!license) {
+  //   return "";  Do I need to provide a list of license options?
+  // } else ()
 }
 
 // TODO: Create a function that returns the license section of README
@@ -22,10 +22,35 @@ function renderLicenseSection(license) {}
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `# ${data.title}
+
 ## description
 ${data.description}
-## something
-${data.something}
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+
+## Installation
+${data.Installation}
+
+## Usage
+${data.Usage}
+
+## Credits
+${data.Credits}
+
+## License
+${data.License}
+
+## Github
+${data.github}
+
+## Email
+${data.email}
+
+
 ${renderLicenseBadge()}
 `;
 }
