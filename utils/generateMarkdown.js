@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
   if (!license) {
     return "";
   }
-  return   `![License: MIT](https://img.shields.io/badge/License-${license}-MIT-yellow.svg)`;
+  return   `![License: MIT](https://img.shields.io/badge/License-${license}-yellow.svg)`;
 }
 
 // TODO: Create a function that returns the license link
@@ -51,7 +51,7 @@ ${data.github}
 ${data.email}
 
 
-${renderLicenseBadge()}
+${renderLicenseBadge(data.License)}
 `;
 }
 

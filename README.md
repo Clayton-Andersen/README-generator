@@ -1,7 +1,7 @@
-# Clayton
+# sd
 
 ## description
-This is a new project
+sdf
 
 ## Table of Contents
 * [Installation](#installation)
@@ -10,22 +10,22 @@ This is a new project
 * [License](#license)
 
 ## Installation
-several
+sdf
 
 ## Usage
-just do what you need to do
+sdf
 
 ## Credits
-just me
+sdf
 
 ## License
-no license
+sdf
 
 ## Github
-Clayton-Andersen
+sdf
 
 ## Email
-utah.gmail
+sdf
 
 
-
+![License: MIT](https://img.shields.io/badge/License-sdf-yellow.svg)
