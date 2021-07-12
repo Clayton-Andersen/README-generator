@@ -1,7 +1,7 @@
-# sd
+# Clayton
 
 ## description
-sdf
+Generates Readme from use inputs
 
 ## Table of Contents
 * [Installation](#installation)
@@ -10,22 +10,22 @@ sdf
 * [License](#license)
 
 ## Installation
-sdf
+clone down repo. npm i, run 'node index.js' once in appropriate file, follow prompts for input, see result.
 
 ## Usage
-sdf
+Instructions as outlined previously
 
 ## Credits
-sdf
+TA's and Tutors
 
 ## License
-sdf
+No License
 
 ## Github
-sdf
+Clayton-Andersen
 
 ## Email
-sdf
+utah.clayton@gmail.com
 
 
-![License: MIT](https://img.shields.io/badge/License-sdf-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-No License-yellow.svg)
